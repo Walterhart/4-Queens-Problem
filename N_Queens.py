@@ -16,11 +16,6 @@ def  solutionSaved(board):
     df2=pd.DataFrame(board)
     df2.to_csv('Solution.csv',sep=',',index=False, columns=None, header=False)
 
-
-
-
-
-
 # This function will print out starting board and load csv file into a data frame
 def loadQueen():
 
@@ -34,9 +29,6 @@ def loadQueen():
     print(line1)
 
     return(data)
-
-
-
 
 # Functions will check if there a conflict between queens
 # It will check  same row, diagonal left, diagonal right
@@ -110,8 +102,6 @@ def isSolution(board):
 
     else:
         print("\nNo solution")
-
-
 
 #Drive code
 board=[]
